@@ -1,12 +1,24 @@
-# React + Vite
+# Library Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Library Admin Dashboard built with React, React Router, Formik, Yup, and Axios. It provides a user-friendly interface to manage books and authors in a library.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Responsive Sidebar:** Collapsible sidebar for easy navigation.
+-   **Library Management:** View, edit, and delete books and authors.
+-   **Create New Items:** Add new books and authors with form validation.
+-   **Edit Existing Items:** Modify book and author details.
+-   **Form Validation:** Implemented using Yup for robust form validation.
+-   **API Integration:** Uses Axios to interact with a MockAPI for data persistence.
+-   **Routing:** Utilizes React Router for seamless page navigation.
+-   **Loading and Error Handling:** Provides clear feedback during API calls.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   React
+-   React Router DOM
+-   Formik
+-   Yup
+-   Axios
+-   Bootstrap (for styling)
+-   Bootstrap Icons
